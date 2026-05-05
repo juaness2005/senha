@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="senha.css">
+    <title>Cantinas Carvalho | Esqueceu a senha</title>
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <a href="#" class="voltar">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+
+            <div class="btn">
+                <input type="checkbox" class="checkbox" id="botao-tema" />
+                <label class="label" for="botao-tema">
+                    <img src="assets/sol.png" alt="Sol" class="img-sol">
+                    <img src="assets/lua.png" alt="Lua" class="img-lua">
+                    <div class="indicador"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="redefinir">
+        <h1>Redefinição de senha</h1>
+
+        <p>Digite o email que você cadastrou a sua conta:</p>
+        <input class="email" type="text" placeholder="Digite o seu email" required>
+
+        <a href="" class="botao">Enviar o código</a>
+    </div>
+
+    <div class="container" id="cod">
+
+        <a href="" class="botao-x">X</a>
+        <h1>Confirmação de código</h1>
+        <div class="codigo">
+            <input type="text" placeholder="X" class="cod" maxlength="1" inputmode="numeric">
+            <input type="text" placeholder="X" class="cod" maxlength="1" inputmode="numeric">
+            <input type="text" placeholder="X" class="cod" maxlength="1" inputmode="numeric">
+            <input type="text" placeholder="X" class="cod" maxlength="1" inputmode="numeric">
+
+        </div>
+        <a href="" class="botao">Verificar o código</a>
+    </div>
+</body>
+
+</html>
